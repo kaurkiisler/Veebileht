@@ -1,58 +1,81 @@
-.põhiline
-{
-	text-align: center;
-	text-align: justify;
-	padding-left: 220px;
-	padding-right: 220px;
-  font-family: Times New Roman;
-  font-size: 16px;
-  background-color: #505e17;
-}
-.peakast
-{
-  background-color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 1px;
-  padding-top: 20px;
-}
+body {margin: 0 ;
+      height: 100%;
+      position: relative;}
 
-.pealkiri {
-	text-align: center;
-}
-h2 
-{
-  text-align: left;
-}
-
-.pea {list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-  	background-color:#28283e;}
-
-.nav_bar {float: left;}
-
-.nav_bar a {display: block;
-  		color: #F8F8FF;
-  		text-align: center;
-  		padding: 15px;
-  		text-decoration: none;
-      font-family: Times New Roman;
-      font-size: 30px;}
-
-.nav_bar a:hover {background-color: #50555c;}
+.main-container {min-height: 100vh;
+                overflow: hidden;
+                position: relative;
+                padding-bottom: 121px;
+                display: block}
 
 h1 {color: #F8F8FF ;
-  font-size: 80px;
-  font-family: Times New Roman;
-  text-align: center;
-  height: 300px;
-  line-height: 300px;
-  background-image: url(https://cdn.pixabay.com/photo/2017/05/02/06/46/potato-2277455_1280.jpg?fbclid=IwAR0XCSWs3mvAF1JBWNUIjFN9Ze5j7ye8xw98_BsKATRv_U5cKlCE76oeEkc);
-  margin: 0;
-  background-position: center;}
+    font-size: 80px;
+    font-family: Times New Roman;
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/02/06/46/potato-2277455_1280.jpg?fbclid=IwAR0XCSWs3mvAF1JBWNUIjFN9Ze5j7ye8xw98_BsKATRv_U5cKlCE76oeEkc);
+    margin: 0;
+    background-position: center;}
 
-img {width: 30px;}
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#28283e;}
+
+li {float: left;}
+
+li a {display: block;
+      color: #F8F8FF;
+      text-align: center;
+      padding: 15px;
+      text-decoration: none;
+      font-family: Times New Roman;
+      font-size: 33px;}
+
+li a:hover {background-color: #50555c;}
 
 .Sotsiaalmeedia {float: right}
+
+.Sotsiaalmeedia_pilt {width: 30px;}
+
+.põhiline {text-align: center;
+          text-align: justify;
+        	padding-left: 220px;
+        	padding-right: 220px;
+          font-family: Times New Roman;
+          font-size: 16px;
+          background-color: #505e17;}
+
+.peakast {background-color: #fff;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 1px;
+          padding-top: 20px;}
+
+.pealkiri {text-align: center;}
+
+h2 {text-align: left;}
+
+.pilt_toode {float: right;
+             margin-left: 25px;
+             margin-bottom: 5px;}
+
+.video {padding-left: 110px;
+        padding-bottom: 10px;}
+
+iframe {frameborder="0";}
+
+footer {position: absolute;
+        bottom: 0; 
+        width: 100%}
+
+.Factify {text-align: center;
+          font-size: 20px;
+          font-family: Times New Roman;
+          background-color: #DCDCDC;
+          height: 90px;
+          padding-top: 12px}
+
+.Trademark {width: 15px}

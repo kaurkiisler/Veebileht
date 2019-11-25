@@ -1,48 +1,12 @@
-.põhiline
-{
-	text-align: center;
-	text-align: justify;
-	padding-left: 220px;
-	padding-right: 220px;
-	font-family: Times New Roman;
-	font-size: 16px;
-	background-color: #247038;
-}
+body {margin: 0 ;
+	  height: 100%;
+	  position: relative;}
 
-.peakast
-{
-	background-color: #fff;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 1px;
-	padding-top: 20px;
-}
-
-h2 {
-	text-align: left;
-}
-
-.kokkuvõte
-{
-	text-align: center;
-}
-.pea {list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-  	background-color:#28283e;}
-
-.nav_bar {float: left;}
-
-.nav_bar a {display: block;
-  		color: #F8F8FF;
-  		text-align: center;
-  		padding: 15px;
-  		text-decoration: none;
-      font-family: Times New Roman;
-      font-size: 30px;}
-
-.nav_bar a:hover {background-color: #50555c;}
+.main-container {min-height: 100vh;
+                overflow: hidden;
+                position: relative;
+                padding-bottom: 121px;
+                display: block}
 
 h1 {color: #F8F8FF ;
   font-size: 80px;
@@ -54,6 +18,61 @@ h1 {color: #F8F8FF ;
   margin: 0;
   background-position: center;}
 
-img {width: 30px;}
+ul {list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color:#28283e;}
+
+li {float: left;}
+
+li a {display: block;
+  	  color: #F8F8FF;
+      text-align: center;
+  	  padding: 15px;
+  	  text-decoration: none;
+      font-family: Times New Roman;
+      font-size: 33px;}
+
+li a:hover {background-color: #50555c;}
 
 .Sotsiaalmeedia {float: right}
+
+.Sotsiaalmeedia_pilt {width: 30px;}
+
+.põhiline {text-align: center;
+		   text-align: justify;
+		   padding-left: 220px;
+	 	   padding-right: 220px;
+		   font-family: Times New Roman;
+		   font-size: 16px;
+		   background-color: #247038;}
+
+.peakast {background-color: #fff;
+		  padding-left: 20px;
+		  padding-right: 20px;
+	      padding-bottom: 1px;
+		  padding-top: 20px;}
+
+h2 {text-align: left;}
+
+.kokkuvõte {text-align: center;}
+
+footer {position: absolute;
+        bottom: 0; 
+        width: 100%}
+
+.Factify {text-align: center;
+          font-size: 20px;
+          font-family: Times New Roman;
+          background-color: #DCDCDC;
+          height: 90px;
+          padding-top: 12px}
+
+.Trademark {width: 15px}
+
+
+
+.pilt_toode {float: right;
+			margin-left: 25px;
+			margin-bottom: 5px;}
