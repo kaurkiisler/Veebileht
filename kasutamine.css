@@ -63,7 +63,8 @@ h2 {text-align: left;}
              margin-bottom: 5px;}
 
 .video {padding-left: 110px;
-        padding-bottom: 10px;}
+        padding-bottom: 10px;
+        border: 0;}
 
 iframe {frameborder="0";}
 
